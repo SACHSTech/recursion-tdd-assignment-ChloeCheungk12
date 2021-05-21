@@ -24,7 +24,12 @@ public class Recursion{
     
     public static String pairStar(String str){
         // Base case
-        return "";
+        if (str != ""){
+            return "a";
+        }
+        else {
+            return "a";
+        }
     }
 
 
