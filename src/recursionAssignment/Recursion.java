@@ -28,7 +28,7 @@ public class Recursion{
             return "a";
         }
         else {
-            return "a";
+            return "";
         }
     }
 
