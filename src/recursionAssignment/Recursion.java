@@ -12,7 +12,7 @@ public class Recursion{
 
         // if last digit is 7
         else if (n % 10 == 7){
-            return(count7(n / 10));
+            return(count7(n / 10) + 1);
         }
         
         // If last digit is not 7
