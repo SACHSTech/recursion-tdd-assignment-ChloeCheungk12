@@ -2,14 +2,22 @@ package recursionAssignment;
 
 public class Recursion{
     public static int count7(int n){
-        int intNumOf7 = 0;
 
-        // base case
-        if (n != 0){
-            return 1;
-        }
-        else {
+        // Base case
+        if (n == 0){
             return 0;
+        }
+
+        // Recursive Cases
+
+        // if last digit is 7
+        else if (n % 10 == 7){
+            return(count7(n / 10));
+        }
+        
+        // If last digit is not 7
+        else {
+            return(count7(n / 10));
         }
     }
 }

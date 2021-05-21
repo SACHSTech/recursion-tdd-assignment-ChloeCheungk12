@@ -12,9 +12,22 @@ public class RecursionTest{
     // count7 Tests
     @Test
     public void Test1(){
-        // make assertion statement(s)
+        // Base case
         assertEquals(0, Recursion.count7(0));
     }
+
+    @Test
+    public void Test2(){
+        // Recursion tests
+        assertEquals(2, Recursion.count7(717));
+    }
+
+    @Test
+    public void Test3(){
+        // Recursion tests
+        assertEquals(5, Recursion.count7(71789777));
+    }
+
 
     
     
