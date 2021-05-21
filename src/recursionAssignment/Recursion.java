@@ -20,4 +20,14 @@ public class Recursion{
             return(count7(n / 10));
         }
     }
+
+    
+    public static String pairStar(String str){
+        
+    }
+
+
+
+
+
 }
