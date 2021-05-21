@@ -5,8 +5,11 @@ public class Recursion{
         int intNumOf7 = 0;
 
         // base case
-        if (n == 0){
-
+        if (n != 0){
+            return 1;
+        }
+        else {
+            return 0;
         }
     }
 }
