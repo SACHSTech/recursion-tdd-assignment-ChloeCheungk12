@@ -30,19 +30,19 @@ public class RecursionTest{
 
     @Test
     public void Test1_4(){
-        // Extreme Case- all 7's
+        // Corner Case- all 7's
         assertEquals(9, Recursion.count7(777777777));
     }
 
     @Test
     public void Test1_5(){
-        // Extreme case- no 7's
+        // Corner case- no 7's
         assertEquals(0, Recursion.count7(1234568));
     }
 
     @Test
     public void Test1_6(){
-        // Extreme Case- all 0's
+        // Corner Case- all 0's
         assertEquals(0, Recursion.count7(0000000));
     }
 

@@ -23,7 +23,8 @@ public class Recursion{
 
     
     public static String pairStar(String str){
-        
+        // Base case
+        return "";
     }
 
 
