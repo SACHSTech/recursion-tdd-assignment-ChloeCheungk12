@@ -13,7 +13,7 @@ public class RecursionTest{
     @Test
     public void Test1(){
         // make assertion statement(s)
-        assertEquals(2, Recursion.count7(717));
+        assertEquals(0, Recursion.count7(0));
     }
 
     
