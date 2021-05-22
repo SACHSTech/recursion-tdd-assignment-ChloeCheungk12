@@ -53,7 +53,7 @@ public class RecursionTest{
 
     @Test
     public void Test2_2(){
-        // Base case
+        // Recursive step case
         assertEquals("3.14", Recursion.changePi("pi"));
     }
     @Test
@@ -78,7 +78,14 @@ public class RecursionTest{
         // corner case
         assertEquals("pp3.14ii", Recursion.changePi("pppiii"));
     }
+
+    @Test
+    public void Test3_1(){
+        assertEquals("piza", Recursion.stringClean("pizza"));
+    }
     
+
+
     
     
     
