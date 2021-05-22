@@ -24,11 +24,14 @@ public class Recursion{
     public static String changePi(String str) {
         // base case
         if (str != "") {
-            return "a";    
+            return "";    
         }
-        else {
-            return "";
+
+        // recursive step
+        else if (str.substring(0,1) == str.substring (1,2)) {
+            return ("3.14" + changePi(str.substring(2)));
         }
+        
        
     }
 
