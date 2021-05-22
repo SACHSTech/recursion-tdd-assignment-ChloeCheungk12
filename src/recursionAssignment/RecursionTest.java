@@ -46,14 +46,13 @@ public class RecursionTest{
         assertEquals(0, Recursion.count7(0000000));
     }
 
-
-    // pairStar Tests 
     @Test
     public void Test2_1(){
-        // Base Case Test
-        assertEquals("", Recursion.pairStar(""));
+        // Base case
+        assertEquals("", Recursion.changePi(""));
     }
 
+    
     
     
     

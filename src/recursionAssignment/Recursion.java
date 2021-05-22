@@ -21,17 +21,16 @@ public class Recursion{
         }
     }
 
-    
-    public static String pairStar(String str){
-        // Base case
-        if (str != ""){
-            return "a";
-        }
-        else {
-            return "";
-        }
+    public static String changePi(String str) {
+        
     }
 
+    
+
+
+
+    
+    
 
 
 
