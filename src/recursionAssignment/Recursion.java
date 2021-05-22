@@ -22,7 +22,14 @@ public class Recursion{
     }
 
     public static String changePi(String str) {
-        return "";
+        // base case
+        if (str != "") {
+            return "a";    
+        }
+        else {
+            return "a";
+        }
+       
     }
 
     
