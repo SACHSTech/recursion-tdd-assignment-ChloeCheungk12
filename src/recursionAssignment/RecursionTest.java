@@ -94,9 +94,18 @@ public class RecursionTest{
         assertEquals("hlo", Recursion.stringClean("hhhlllooo"));
     }
     
+    @Test
+    public void Test3_4(){
+        // corner case
+        assertEquals("h", Recursion.stringClean("hhhhhhhhhhhhh"));
+    }
 
 
-    
+    @Test
+    public void Test3_5(){
+        // corner case
+        assertEquals("abcde", Recursion.stringClean("aaaaaaabbbbbbbbbbbcccccccccdeeeeeeee"));
+    }   
     
     
     
