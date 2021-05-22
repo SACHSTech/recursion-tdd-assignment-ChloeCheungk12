@@ -88,6 +88,11 @@ public class RecursionTest{
     public void Test3_2(){
         assertEquals("", Recursion.stringClean(""));
     }
+
+    @Test
+    public void Test3_3(){
+        assertEquals("hlo", Recursion.stringClean("hhhlllooo"));
+    }
     
 
 
