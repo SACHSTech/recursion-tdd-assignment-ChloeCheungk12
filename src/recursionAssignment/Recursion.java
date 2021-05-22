@@ -47,10 +47,11 @@ public class Recursion{
         }
         // recursive step
         else if (str.substring(0,2).equals("pi")) {
-            return (
-                "3.14" + changePi(str.substring(2)));
+            // return 3.14 instead of pi and the changePi method with str starting with the 2nd letter
+            return ("3.14" + changePi(str.substring(2)));
         }
-        else {
+        else { 
+            // return the first letter of the string and the changePi method with parameter str starting with 2nd letter
             return str.substring(0,1) + changePi(str.substring(1));
         }
        
@@ -74,9 +75,11 @@ public class Recursion{
         }
         // recursive step
         else if (str.substring(0,1).equals(str.substring(1,2))) {
+            // Return stringClean(str starting from second letter)
             return stringClean(str.substring(1));
         }
         else {
+            // return first letter + stringClean(str starting from 2nd letter)
             return str.substring(0,1) + stringClean(str.substring(1));
         }
 
