@@ -1,6 +1,16 @@
 package recursionAssignment;
 
 public class Recursion{
+    /**
+    * A method count7(int n) takes an integer 
+    * and returns the number of digits equal to 7
+    * 
+    * @param n the integer
+    * @return the number of 7's in the integer
+    * @author: Chloe Cheung
+    *
+    */
+
     public static int count7(int n){
 
         // Base case
@@ -21,6 +31,15 @@ public class Recursion{
         }
     }
 
+    /**
+    * A method changePi(String str) takes a string 
+    * and returns a string with every instance of "pi" replaced with 3.14
+    * 
+    * @param str the String parameter
+    * @return the new string with pi replaced with 3.14
+    * @author: Chloe Cheung
+    *
+    */
     public static String changePi(String str) {
         // base case
         if (str.length() < 2) {
@@ -37,6 +56,17 @@ public class Recursion{
        
     }
 
+    /**
+    * A method stringClean(String str) takes a string 
+    * and returns a string with adjacent letters that are the same replaced with the letter
+    * appearing once
+    * 
+    * @param str the String parameter
+    * @return the new string with duplicated adjacent letters reduced to one letter
+    * @author: Chloe Cheung
+    *
+    */
+    
     public static String stringClean(String str){
         // base case
         if (str.length() < 2) {
