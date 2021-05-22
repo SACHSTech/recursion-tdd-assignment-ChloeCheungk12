@@ -23,15 +23,21 @@ public class Recursion{
 
     public static String changePi(String str) {
         // base case
-        if (str != "") {
-            return "";    
+        if (str.equals("")){
+            return ("");
         }
 
         // recursive step
-        else if (str.substring(0,1) == str.substring (1,2)) {
-            return ("3.14" + changePi(str.substring(2)));
+        else if (str.length() < 2) {
+            return str;
         }
-        
+        else if (str.substring(0,2).equals("pi")) {
+            return (
+                "3.14" + changePi(str.substring(2)));
+        }
+        else {
+            return str.substring(0,1) + changePi(str.substring(1));
+        }
        
     }
 

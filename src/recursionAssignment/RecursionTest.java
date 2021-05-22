@@ -55,9 +55,18 @@ public class RecursionTest{
     @Test
     public void Test2_2(){
         // Base case
-        assertEquals("pi", Recursion.changePi("3.14"));
+        assertEquals("3.14", Recursion.changePi("pi"));
     }
-
+    @Test
+    public void Test2_3(){
+        // Base case
+        assertEquals("3.143.14", Recursion.changePi("pipi"));
+    }
+    @Test
+    public void Test2_4(){
+        // Base case
+        assertEquals("3.14abc3.14", Recursion.changePi("piabcpi"));
+    }
     
     
     
