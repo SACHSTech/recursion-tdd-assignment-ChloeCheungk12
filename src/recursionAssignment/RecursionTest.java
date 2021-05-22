@@ -83,6 +83,11 @@ public class RecursionTest{
     public void Test3_1(){
         assertEquals("piza", Recursion.stringClean("pizza"));
     }
+
+    @Test
+    public void Test3_2(){
+        assertEquals("", Recursion.stringClean(""));
+    }
     
 
 

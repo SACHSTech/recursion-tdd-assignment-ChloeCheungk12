@@ -38,7 +38,11 @@ public class Recursion{
     }
 
     public static String stringClean(String str){
-        return "piza";
+        // base case
+        if (str.equals("")) {
+            return("");
+        }
+        
     }
 
 
