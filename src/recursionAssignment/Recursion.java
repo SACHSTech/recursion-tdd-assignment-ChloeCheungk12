@@ -39,9 +39,13 @@ public class Recursion{
 
     public static String stringClean(String str){
         // base case
-        if (str.equals("")) {
-            return("");
+        if (!str.equals("")) {
+            return "a";
         }
+        else {
+            return "";
+        }
+
         
     }
 
