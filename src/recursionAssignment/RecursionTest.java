@@ -8,10 +8,6 @@ import recursionAssignment.Recursion;
 
 public class RecursionTest{
     
-    @Test
-    public void Test1(){
-      assertEquals(!null, count7(717));
-    }
 
     
     
